@@ -1,0 +1,28 @@
+<%= erb :header %>
+<%= erb :topnav %>
+
+<br />
+<br />
+
+
+<h1>Techdelivery Chef Deployment Tool</h1>
+
+<h2><a href='/fleet'>Fleet</a></h2>
+    <div id="hosts">
+      <% @fleet_deploys.each do |name,ver| %> 
+      <% next if name=='id' %>
+      <%= "#{name} -> #{ver}" %><br>
+      <% end %>
+      <br>
+    </div id="hosts">
+<h2><a href='/route'>Route</a></h2>
+    <div id="hosts">
+      <% @route_deploys.each do |name,ver| %> 
+      <% next if name=='id' %>
+      <%= "#{name} -> #{ver} [<a href=/route/#{name}>#{@route_status[name]}</a>]" %><br>
+      <% end %>
+      <br>
+    </div id="hosts">
+
+	
+<%= erb :footer %>
