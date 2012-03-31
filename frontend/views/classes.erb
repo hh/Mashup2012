@@ -1,0 +1,15 @@
+<%= erb :header %>
+<%= erb :topnav %>
+
+<br />
+<br />
+
+
+<h1>our fun classes</h1>
+
+<% @classes.each do |classname, attribs| %>
+<p> <a href="<%= attribs[:url] %>"><%= classname %></a>
+<p> <%= attribs[:desc] %>
+<% end %>
+	
+<%= erb :footer %>
