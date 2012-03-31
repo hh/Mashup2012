@@ -1,0 +1,24 @@
+<%= erb :header %>
+<%= erb :topnav %>
+
+<br />
+<br />
+
+
+<h1><%= @air['title']%></h1>
+
+<h2>INFO:</h2>
+<ul>
+<% @air['info'].each do |key,value| %>
+<li><%= key %> - <%= value %></li>
+<% end %>
+</ul>
+
+<h2>SUMMARY:</h2>
+<ul>
+<% @air['summary'].each do |key,value| %>
+<li><%= key %> - <%= value %></li>
+<% end %>
+</ul>
+	
+<%= erb :footer %>

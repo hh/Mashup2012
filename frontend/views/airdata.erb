@@ -1,0 +1,16 @@
+<%= erb :header %>
+<%= erb :topnav %>
+
+<br />
+<br />
+
+
+<h1>our fun airsites</h1>
+
+<ul>
+<% @airdata.each do |air| %>
+<li> <a href="/airdata/<%= air['title'] %>"><%= air['title']  %></a> </li>
+<% end %>
+</ul>
+	
+<%= erb :footer %>
