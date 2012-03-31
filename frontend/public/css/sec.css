@@ -1,0 +1,127 @@
+h2 {
+	color: #4268a3;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	color: #000;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h4 {
+	color: #4268a3;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h5 {
+	color: red;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sectable {
+	background-color: white;
+	color: #000;
+	font: 14px arial;
+	width: 650px;
+	border-style: double;
+}
+
+.col1 {
+	font-weight: bold;
+	width: 150px;
+	vertical-align: text-top;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.col2 {
+	font-weight: normal;
+	font-style: normal;
+	width: 500px;
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+auditdiv {
+	background-color: white;
+}
+
+.audittable {
+	color: #000;
+	font: 14px arial;
+	width: 100%;
+	border-style: double;
+}
+
+*audrowshaded {
+	background-color: #d7e3f7;
+}
+
+.audcol1 {
+	font-weight: bold;
+/*	width: 25px; */
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.audcol2 {
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.audcol3 {
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.audcol4 {
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.audcol5 {
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: text-top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.hashtop {
+	text-decoration: none;
+	color: black;
+}
+
+.hashbottom {
+	color: #4268a3;
+	font-weight: bold;
+}

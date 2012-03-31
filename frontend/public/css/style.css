@@ -1,0 +1,69 @@
+h1 {
+	color: #000;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a {
+	color: #4268a3;
+}
+
+ul,li {
+	list-style-type: square;
+	list-style-position: outside;
+	color: #A5BFE8;
+	font-size: 14px;
+	font-family: arial;
+}
+
+/* Nav Styling */
+
+.navtable {
+	position: static;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	vertical-align: top;
+	background-color: #A5BFE8;
+	border-style: none;
+	display: table;
+	color: black;
+	font: 14px arial;
+}
+
+.logo {
+	background: url(../img/logo.png) no-repeat;
+	width: 200px;
+}
+
+.name {
+	text-align:left;
+	padding-left:8px;
+	overflow:hidden;
+	width: 850px;
+}
+
+.bannerText {
+	font-weight:bold;
+}
+
+.time {
+	font-weight:normal;
+	font-size:13px
+}
+
+.home {
+	padding:0px 4px 0px 4px;
+	width: 30px;
+	background-image: none;
+}
+
+.btnText {
+	margin-right: 0;
+	right: 0;
+	text-align: left;
+	width: 100px;
+}
