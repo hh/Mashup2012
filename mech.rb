@@ -14,10 +14,12 @@ course_links = course_list_page.links.find_all { |l| l.href.start_with? '/go/pro
 
 output={}
 course_links.each do |l|
+  shortname = l.split('/')[-1]
   c_page = agent.get("http://www.boppoly.ac.nz#{l}")
   name = c_page.search('.//div[@id="content"]').first.children[0].text
   text = c_page.search('.//div[@class="article article2"]').first.children[4].text
-  output[name] = {
+  output[shortname] = {
+    :name => name,
     :url => "http://www.boppoly.ac.nz#{l}",
     :desc => text
   }

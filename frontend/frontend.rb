@@ -17,3 +17,10 @@ get '/classes' do
   erb :classes
 end
 
+get '/classes/:shortname' do
+  @shortname = params[:shortname]
+  @classes = YAML.load(open('classes.yml').read)
+  @klass = @classes[@shortname]
+  erb :showclass
+end
+

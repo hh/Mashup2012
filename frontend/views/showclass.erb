@@ -1,0 +1,13 @@
+<%= erb :header %>
+<%= erb :topnav %>
+
+<br />
+<br />
+
+
+<h1><%= @klass[:name] %></h1>
+
+<a href="<%=@klass[:url]%>">GOTHERE</a>
+<p><%= @klass[:desc] %>
+
+<%= erb :footer %>

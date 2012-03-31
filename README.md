@@ -7,4 +7,8 @@ bundle install
 
 
 * http://mechanize.rubyforge.org/
+
+
+ How to write new pages etc:
+
 * http://www.sinatrarb.com/intro.html
